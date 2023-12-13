@@ -1,0 +1,136 @@
+body
+{
+    background-image: url("backg.jpg"), url("backg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* --------------student form------------- */
+
+  body {
+    background-image: url("backg.jpg"), url("backg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* --------------student form------------- */
+
+table,
+td,
+th {
+    border: 4px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+th,
+td {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+tr > th {
+    background-color: teal;
+    color: white;
+}
+
+.studentData {
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+}
+
+#form1 {
+    margin: auto;
+    width: 80%;
+}
+
+#form1 input {
+    padding: 10px;
+    margin-right: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#form1 input:focus {
+    outline: none;
+}
+
+.td4,
+.td5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.td4 > button,
+.td5 > button {
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.td4 > button:nth-child(1) {
+    background-color: green;
+}
+
+.td5 > button:nth-child(2) {
+    background-color: red;
+}
+
+#absent {
+    background-color: red;
+}
+
+.btn-delete {
+    background-color: red;
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.logout-button {
+    position: absolute;
+    background-color: transparent;
+    top: 40px;
+    right: 10px;
+}
+
+.login-box #submit,
+.logout-button {
+    animation: btn-anim 2s linear infinite;
+}
+
+@keyframes btn-anim {
+    0%, 100% {
+        box-shadow: 0 0 5px #03f484, 0 0 25px #03f484, 0 0 50px #03f484, 0 0 100px #03f484;
+    }
+    25% {
+        box-shadow: 0 0 5px #ff0000, 0 0 25px #ff0000, 0 0 50px #ff0000, 0 0 100px #ff0000;
+    }
+    50% {
+        box-shadow: 0 0 5px #03f484, 0 0 25px #03f484, 0 0 50px #03f484, 0 0 100px #03f484;
+    }
+    75% {
+        box-shadow: 0 0 5px #ff0000, 0 0 25px #ff0000, 0 0 50px #ff0000, 0 0 100px #ff0000;
+    }
+}
+
+
+
